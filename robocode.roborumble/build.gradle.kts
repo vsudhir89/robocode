@@ -28,6 +28,7 @@ tasks {
     javadoc {
         source = sourceSets["main"].java
         include("roborumble/RoboRumbleAtHome.java")
+        options.encoding = "UTF-8"
     }
     jar {
         dependsOn("javadoc")

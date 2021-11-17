@@ -10,5 +10,5 @@ gradle-app.setting
 !gradle-wrapper.jar
 **/build/
 .sandbox
-.idea/uiDesigner.xml
+.idea/
 robocode.tests/screenshots/
